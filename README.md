@@ -1,10 +1,12 @@
-# Melancholy-Engine
+ 
+<h1 align="center"> Melancholy Engine </h1>
+<p align="center">
+<h3 align="center">A High level 2D and 3D Standalone Game Engine built using Metal for iOS, iPadOS and MacOS Ecosystem..</h3>
+</p>
 
 ### About
-A High level 2D and 3D Standalone Game Engine built using Metal for iOS, iPadOS and MacOS Ecosystem.
+- A quick 3D editor/long-term game engine kinda app for iPad  using Metal. An experimental engine to see if it is possible to actually make a standalone Game Engine for iPad and Mac ecosystem. 
+- Probably add the ability to build and design games in iPad and port it to web and use apple native libraries for UI and iCloud and other native/specific integrations using only apple's technologies.
 
-### Inspiration
-How canst thou part sadness and melancoly, me tender juvenal? The developer bawled from the trapped ecosystem.
 
-Let thy Melancholy Engine be the answer to this question.
 
