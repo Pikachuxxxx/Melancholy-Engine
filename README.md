@@ -1,4 +1,6 @@
- 
+ <p align="center">
+  <img width=400" src="https://github.com/Pikachuxxxx/Melancholy-Engine/blob/master/Melancholy%20Engine%20Logo.png">
+</p>
 <h1 align="center"> Melancholy Engine </h1>
 <p align="center">
 <h3 align="center">A High level 2D and 3D Standalone Game Engine built using Metal for iOS, iPadOS and MacOS Ecosystem..</h3>
