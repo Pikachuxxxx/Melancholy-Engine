@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877712EB250BA29E00B33D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712EA250BA29E00B33D97 /* AppDelegate.swift */; };
+		877712ED250BA29E00B33D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712EC250BA29E00B33D97 /* ViewController.swift */; };
+		877712EF250BA2A500B33D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877712EE250BA2A500B33D97 /* Assets.xcassets */; };
+		877712F2250BA2A500B33D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877712F0250BA2A500B33D97 /* Main.storyboard */; };
+		877712FE250BA2A600B33D97 /* Melancholy_EngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712FD250BA2A600B33D97 /* Melancholy_EngineTests.swift */; };
+		87771309250BA2A600B33D97 /* Melancholy_EngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		877712FA250BA2A600B33D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877712DF250BA29E00B33D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877712E6250BA29E00B33D97;
+			remoteInfo = "Melancholy Engine";
+		};
+		87771305250BA2A600B33D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877712DF250BA29E00B33D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877712E6250BA29E00B33D97;
+			remoteInfo = "Melancholy Engine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		877712E7250BA29E00B33D97 /* Melancholy Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Melancholy Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877712EA250BA29E00B33D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		877712EC250BA29E00B33D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		877712EE250BA2A500B33D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877712F1250BA2A500B33D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		877712F3250BA2A500B33D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877712F4250BA2A500B33D97 /* Melancholy_Engine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Melancholy_Engine.entitlements; sourceTree = "<group>"; };
+		877712F9250BA2A600B33D97 /* Melancholy EngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Melancholy EngineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877712FD250BA2A600B33D97 /* Melancholy_EngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melancholy_EngineTests.swift; sourceTree = "<group>"; };
+		877712FF250BA2A600B33D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87771304250BA2A600B33D97 /* Melancholy EngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Melancholy EngineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melancholy_EngineUITests.swift; sourceTree = "<group>"; };
+		8777130A250BA2A600B33D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877712E4250BA29E00B33D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877712F6250BA2A600B33D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87771301250BA2A600B33D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877712DE250BA29E00B33D97 = {
+			isa = PBXGroup;
+			children = (
+				877712E9250BA29E00B33D97 /* Melancholy Engine */,
+				877712FC250BA2A600B33D97 /* Melancholy EngineTests */,
+				87771307250BA2A600B33D97 /* Melancholy EngineUITests */,
+				877712E8250BA29E00B33D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877712E8250BA29E00B33D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877712E7250BA29E00B33D97 /* Melancholy Engine.app */,
+				877712F9250BA2A600B33D97 /* Melancholy EngineTests.xctest */,
+				87771304250BA2A600B33D97 /* Melancholy EngineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877712E9250BA29E00B33D97 /* Melancholy Engine */ = {
+			isa = PBXGroup;
+			children = (
+				87771317250BA2E400B33D97 /* Other Files */,
+				877712F0250BA2A500B33D97 /* Main.storyboard */,
+			);
+			path = "Melancholy Engine";
+			sourceTree = "<group>";
+		};
+		877712FC250BA2A600B33D97 /* Melancholy EngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				877712FD250BA2A600B33D97 /* Melancholy_EngineTests.swift */,
+				877712FF250BA2A600B33D97 /* Info.plist */,
+			);
+			path = "Melancholy EngineTests";
+			sourceTree = "<group>";
+		};
+		87771307250BA2A600B33D97 /* Melancholy EngineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */,
+				8777130A250BA2A600B33D97 /* Info.plist */,
+			);
+			path = "Melancholy EngineUITests";
+			sourceTree = "<group>";
+		};
+		87771317250BA2E400B33D97 /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				877712EA250BA29E00B33D97 /* AppDelegate.swift */,
+				877712EC250BA29E00B33D97 /* ViewController.swift */,
+				877712EE250BA2A500B33D97 /* Assets.xcassets */,
+				877712F3250BA2A500B33D97 /* Info.plist */,
+				877712F4250BA2A500B33D97 /* Melancholy_Engine.entitlements */,
+			);
+			path = "Other Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877712E6250BA29E00B33D97 /* Melancholy Engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8777130D250BA2A600B33D97 /* Build configuration list for PBXNativeTarget "Melancholy Engine" */;
+			buildPhases = (
+				877712E3250BA29E00B33D97 /* Sources */,
+				877712E4250BA29E00B33D97 /* Frameworks */,
+				877712E5250BA29E00B33D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Melancholy Engine";
+			productName = "Melancholy Engine";
+			productReference = 877712E7250BA29E00B33D97 /* Melancholy Engine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877712F8250BA2A600B33D97 /* Melancholy EngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87771310250BA2A600B33D97 /* Build configuration list for PBXNativeTarget "Melancholy EngineTests" */;
+			buildPhases = (
+				877712F5250BA2A600B33D97 /* Sources */,
+				877712F6250BA2A600B33D97 /* Frameworks */,
+				877712F7250BA2A600B33D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877712FB250BA2A600B33D97 /* PBXTargetDependency */,
+			);
+			name = "Melancholy EngineTests";
+			productName = "Melancholy EngineTests";
+			productReference = 877712F9250BA2A600B33D97 /* Melancholy EngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87771303250BA2A600B33D97 /* Melancholy EngineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87771313250BA2A600B33D97 /* Build configuration list for PBXNativeTarget "Melancholy EngineUITests" */;
+			buildPhases = (
+				87771300250BA2A600B33D97 /* Sources */,
+				87771301250BA2A600B33D97 /* Frameworks */,
+				87771302250BA2A600B33D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87771306250BA2A600B33D97 /* PBXTargetDependency */,
+			);
+			name = "Melancholy EngineUITests";
+			productName = "Melancholy EngineUITests";
+			productReference = 87771304250BA2A600B33D97 /* Melancholy EngineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877712DF250BA29E00B33D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Phani Srikar";
+				TargetAttributes = {
+					877712E6250BA29E00B33D97 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					877712F8250BA2A600B33D97 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 877712E6250BA29E00B33D97;
+					};
+					87771303250BA2A600B33D97 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 877712E6250BA29E00B33D97;
+					};
+				};
+			};
+			buildConfigurationList = 877712E2250BA29E00B33D97 /* Build configuration list for PBXProject "Melancholy Engine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877712DE250BA29E00B33D97;
+			productRefGroup = 877712E8250BA29E00B33D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877712E6250BA29E00B33D97 /* Melancholy Engine */,
+				877712F8250BA2A600B33D97 /* Melancholy EngineTests */,
+				87771303250BA2A600B33D97 /* Melancholy EngineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877712E5250BA29E00B33D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877712EF250BA2A500B33D97 /* Assets.xcassets in Resources */,
+				877712F2250BA2A500B33D97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877712F7250BA2A600B33D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87771302250BA2A600B33D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877712E3250BA29E00B33D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877712ED250BA29E00B33D97 /* ViewController.swift in Sources */,
+				877712EB250BA29E00B33D97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877712F5250BA2A600B33D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877712FE250BA2A600B33D97 /* Melancholy_EngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87771300250BA2A600B33D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87771309250BA2A600B33D97 /* Melancholy_EngineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877712FB250BA2A600B33D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877712E6250BA29E00B33D97 /* Melancholy Engine */;
+			targetProxy = 877712FA250BA2A600B33D97 /* PBXContainerItemProxy */;
+		};
+		87771306250BA2A600B33D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877712E6250BA29E00B33D97 /* Melancholy Engine */;
+			targetProxy = 87771305250BA2A600B33D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		877712F0250BA2A500B33D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877712F1250BA2A500B33D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8777130B250BA2A600B33D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8777130C250BA2A600B33D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8777130E250BA2A600B33D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Melancholy Engine/Other Files/Melancholy_Engine.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Melancholy Engine/Other Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.Melancholy-Engine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8777130F250BA2A600B33D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Melancholy Engine/Other Files/Melancholy_Engine.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Melancholy Engine/Other Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.Melancholy-Engine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		87771311250BA2A600B33D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Melancholy EngineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.Melancholy-EngineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melancholy Engine.app/Contents/MacOS/Melancholy Engine";
+			};
+			name = Debug;
+		};
+		87771312250BA2A600B33D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Melancholy EngineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.Melancholy-EngineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melancholy Engine.app/Contents/MacOS/Melancholy Engine";
+			};
+			name = Release;
+		};
+		87771314250BA2A600B33D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Melancholy EngineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.Melancholy-EngineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Melancholy Engine";
+			};
+			name = Debug;
+		};
+		87771315250BA2A600B33D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Melancholy EngineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.Melancholy-EngineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Melancholy Engine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877712E2250BA29E00B33D97 /* Build configuration list for PBXProject "Melancholy Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8777130B250BA2A600B33D97 /* Debug */,
+				8777130C250BA2A600B33D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8777130D250BA2A600B33D97 /* Build configuration list for PBXNativeTarget "Melancholy Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8777130E250BA2A600B33D97 /* Debug */,
+				8777130F250BA2A600B33D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87771310250BA2A600B33D97 /* Build configuration list for PBXNativeTarget "Melancholy EngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87771311250BA2A600B33D97 /* Debug */,
+				87771312250BA2A600B33D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87771313250BA2A600B33D97 /* Build configuration list for PBXNativeTarget "Melancholy EngineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87771314250BA2A600B33D97 /* Debug */,
+				87771315250BA2A600B33D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877712DF250BA29E00B33D97 /* Project object */;
+}
