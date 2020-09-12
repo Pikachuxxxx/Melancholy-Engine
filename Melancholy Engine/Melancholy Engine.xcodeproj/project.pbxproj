@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		877712EB250BA29E00B33D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712EA250BA29E00B33D97 /* AppDelegate.swift */; };
-		877712ED250BA29E00B33D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712EC250BA29E00B33D97 /* ViewController.swift */; };
 		877712EF250BA2A500B33D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877712EE250BA2A500B33D97 /* Assets.xcassets */; };
 		877712F2250BA2A500B33D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877712F0250BA2A500B33D97 /* Main.storyboard */; };
 		877712FE250BA2A600B33D97 /* Melancholy_EngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712FD250BA2A600B33D97 /* Melancholy_EngineTests.swift */; };
 		87771309250BA2A600B33D97 /* Melancholy_EngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */; };
+		87D5D195250CC8F800093402 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5D194250CC8F800093402 /* GameView.swift */; };
+		87D5D197250CD0BF00093402 /* basicShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 87D5D196250CD0BF00093402 /* basicShaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,6 @@
 /* Begin PBXFileReference section */
 		877712E7250BA29E00B33D97 /* Melancholy Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Melancholy Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		877712EA250BA29E00B33D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		877712EC250BA29E00B33D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		877712EE250BA2A500B33D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877712F1250BA2A500B33D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877712F3250BA2A500B33D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +46,8 @@
 		87771304250BA2A600B33D97 /* Melancholy EngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Melancholy EngineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melancholy_EngineUITests.swift; sourceTree = "<group>"; };
 		8777130A250BA2A600B33D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87D5D194250CC8F800093402 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		87D5D196250CD0BF00093402 /* basicShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = basicShaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,10 @@
 		877712E9250BA29E00B33D97 /* Melancholy Engine */ = {
 			isa = PBXGroup;
 			children = (
-				87771317250BA2E400B33D97 /* Other Files */,
 				877712F0250BA2A500B33D97 /* Main.storyboard */,
+				87D5D194250CC8F800093402 /* GameView.swift */,
+				87D5D196250CD0BF00093402 /* basicShaders.metal */,
+				87771317250BA2E400B33D97 /* Other Files */,
 			);
 			path = "Melancholy Engine";
 			sourceTree = "<group>";
@@ -124,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				877712EA250BA29E00B33D97 /* AppDelegate.swift */,
-				877712EC250BA29E00B33D97 /* ViewController.swift */,
 				877712EE250BA2A500B33D97 /* Assets.xcassets */,
 				877712F3250BA2A500B33D97 /* Info.plist */,
 				877712F4250BA2A500B33D97 /* Melancholy_Engine.entitlements */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877712ED250BA29E00B33D97 /* ViewController.swift in Sources */,
+				87D5D195250CC8F800093402 /* GameView.swift in Sources */,
 				877712EB250BA29E00B33D97 /* AppDelegate.swift in Sources */,
+				87D5D197250CD0BF00093402 /* basicShaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
