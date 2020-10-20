@@ -10,14 +10,7 @@ import Cocoa
 import MetalKit
 
 class GameView: MTKView {
-    
-    struct Vertex{
-        var position: simd_float3
-        var color: simd_float4
-    }
-    
-    var commandQ: MTLCommandQueue!
-    
+        
     var renderPipelineState: MTLRenderPipelineState!
     
     var vertices: [Vertex]!
@@ -28,11 +21,12 @@ class GameView: MTKView {
         super.init(coder: coder)
         
         self.device = MTLCreateSystemDefaultDevice()
-        self.clearColor = MTLClearColor(red: 0.8, green: 0.1, blue: 0.1, alpha: 1.0)
-        self.colorPixelFormat = .bgra8Unorm
         
-        self.commandQ = device?.makeCommandQueue()
+        Engine.Ignite(device: device!)
         
+        self.clearColor = Preferences.ClearColor
+        self.colorPixelFormat = Preferences.MainPixelFormat
+                
         createRenderPipelineState()
         createVertices()
         createBufferrs()
@@ -47,23 +41,38 @@ class GameView: MTKView {
     }
     
     func createBufferrs(){
-        vertexBuffer = device?.makeBuffer(bytes: vertices,
-                                          length: MemoryLayout<Vertex>.stride * vertices.count,
+        vertexBuffer = Engine.Device .makeBuffer(bytes: vertices,
+                                          length: Vertex.stride(vertices.count),
                                           options: [])
     }
     
     func createRenderPipelineState(){
-        let library = device?.makeDefaultLibrary()
-        let vertexFunction = library?.makeFunction(name: "basic_vertex_shader")
+        let library = Engine.Device.makeDefaultLibrary()
+        let vertexFunction   = library?.makeFunction(name: "basic_vertex_shader")
         let fragmentFunction = library?.makeFunction(name: "basic_fragment_shader")
         
+        let vertexDescriptor = MTLVertexDescriptor()
+        
+        // Attrib 1 : Position
+        vertexDescriptor.attributes[0].format = .float3
+        vertexDescriptor.attributes[0].bufferIndex = 0
+        vertexDescriptor.attributes[0].offset = 0
+        
+        // Attrib 2 : Color
+        vertexDescriptor.attributes[1].format = .float4
+        vertexDescriptor.attributes[1].bufferIndex = 0
+        vertexDescriptor.attributes[1].offset = simd_float3.size
+        
+        vertexDescriptor.layouts[0].stride = Vertex.stride
+        
         let descriptor = MTLRenderPipelineDescriptor()
-        descriptor.colorAttachments[0].pixelFormat = .bgra8Unorm
+        descriptor.colorAttachments[0].pixelFormat = Preferences.MainPixelFormat
         descriptor.vertexFunction = vertexFunction
         descriptor.fragmentFunction = fragmentFunction
+        descriptor.vertexDescriptor = vertexDescriptor
         
         do{
-            renderPipelineState = try device?.makeRenderPipelineState(descriptor: descriptor)
+            renderPipelineState = try Engine.Device.makeRenderPipelineState(descriptor: descriptor)
         }catch let error as NSError{
             print(error)
         }
@@ -73,7 +82,7 @@ class GameView: MTKView {
         guard let drawable = self.currentDrawable,
         let renderPassDescriptor = self.currentRenderPassDescriptor  else{ return }
             
-        let commandBuffer = commandQ.makeCommandBuffer()
+        let commandBuffer = Engine.CommandQueue.makeCommandBuffer()
         let renderCommandEncoder = commandBuffer?.makeRenderCommandEncoder(descriptor: renderPassDescriptor)
         renderCommandEncoder?.setRenderPipelineState(renderPipelineState)
         

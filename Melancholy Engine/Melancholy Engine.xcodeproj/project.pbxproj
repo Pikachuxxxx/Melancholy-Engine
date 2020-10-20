@@ -12,6 +12,10 @@
 		877712F2250BA2A500B33D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877712F0250BA2A500B33D97 /* Main.storyboard */; };
 		877712FE250BA2A600B33D97 /* Melancholy_EngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712FD250BA2A600B33D97 /* Melancholy_EngineTests.swift */; };
 		87771309250BA2A600B33D97 /* Melancholy_EngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */; };
+		87B7316F25305A0200561C5C /* ShaderLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7316E25305A0200561C5C /* ShaderLibrary.swift */; };
+		87CF645F251C8C6400F9F87A /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF645E251C8C6400F9F87A /* Types.swift */; };
+		87CF646E251C8FE700F9F87A /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF646D251C8FE700F9F87A /* Engine.swift */; };
+		87CF6473251CC7F700F9F87A /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF6472251CC7F700F9F87A /* Preferences.swift */; };
 		87D5D195250CC8F800093402 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5D194250CC8F800093402 /* GameView.swift */; };
 		87D5D197250CD0BF00093402 /* basicShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 87D5D196250CD0BF00093402 /* basicShaders.metal */; };
 /* End PBXBuildFile section */
@@ -46,6 +50,10 @@
 		87771304250BA2A600B33D97 /* Melancholy EngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Melancholy EngineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melancholy_EngineUITests.swift; sourceTree = "<group>"; };
 		8777130A250BA2A600B33D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B7316E25305A0200561C5C /* ShaderLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderLibrary.swift; sourceTree = "<group>"; };
+		87CF645E251C8C6400F9F87A /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		87CF646D251C8FE700F9F87A /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		87CF6472251CC7F700F9F87A /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		87D5D194250CC8F800093402 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		87D5D196250CD0BF00093402 /* basicShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = basicShaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,9 +106,10 @@
 		877712E9250BA29E00B33D97 /* Melancholy Engine */ = {
 			isa = PBXGroup;
 			children = (
-				877712F0250BA2A500B33D97 /* Main.storyboard */,
-				87D5D194250CC8F800093402 /* GameView.swift */,
-				87D5D196250CD0BF00093402 /* basicShaders.metal */,
+				87CF6466251C8E7E00F9F87A /* Core */,
+				87CF6467251C8E8300F9F87A /* Libraries */,
+				87CF6468251C8E8F00F9F87A /* Shaders */,
+				87CF6469251C8E9500F9F87A /* Display */,
 				87771317250BA2E400B33D97 /* Other Files */,
 			);
 			path = "Melancholy Engine";
@@ -133,6 +142,41 @@
 				877712F4250BA2A500B33D97 /* Melancholy_Engine.entitlements */,
 			);
 			path = "Other Files";
+			sourceTree = "<group>";
+		};
+		87CF6466251C8E7E00F9F87A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				87CF645E251C8C6400F9F87A /* Types.swift */,
+				87CF646D251C8FE700F9F87A /* Engine.swift */,
+				87CF6472251CC7F700F9F87A /* Preferences.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		87CF6467251C8E8300F9F87A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				87B7316E25305A0200561C5C /* ShaderLibrary.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		87CF6468251C8E8F00F9F87A /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				87D5D196250CD0BF00093402 /* basicShaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		87CF6469251C8E9500F9F87A /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				87D5D194250CC8F800093402 /* GameView.swift */,
+				877712F0250BA2A500B33D97 /* Main.storyboard */,
+			);
+			path = Display;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +242,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Phani Srikar";
 				TargetAttributes = {
 					877712E6250BA29E00B33D97 = {
@@ -267,7 +311,11 @@
 			files = (
 				87D5D195250CC8F800093402 /* GameView.swift in Sources */,
 				877712EB250BA29E00B33D97 /* AppDelegate.swift in Sources */,
+				87CF6473251CC7F700F9F87A /* Preferences.swift in Sources */,
 				87D5D197250CD0BF00093402 /* basicShaders.metal in Sources */,
+				87B7316F25305A0200561C5C /* ShaderLibrary.swift in Sources */,
+				87CF645F251C8C6400F9F87A /* Types.swift in Sources */,
+				87CF646E251C8FE700F9F87A /* Engine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +388,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -400,6 +449,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -432,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Melancholy Engine/Other Files/Melancholy_Engine.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Melancholy Engine/Other Files/Info.plist";
@@ -450,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Melancholy Engine/Other Files/Melancholy_Engine.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Melancholy Engine/Other Files/Info.plist";
