@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8776CA88253EB0DA000A9683 /* VertexDescriptorLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776CA87253EB0DA000A9683 /* VertexDescriptorLibrary.swift */; };
+		8776CA8D253EB36D000A9683 /* RenderPipelineDescriptorLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776CA8C253EB36D000A9683 /* RenderPipelineDescriptorLibrary.swift */; };
+		8776CA92253EB5BF000A9683 /* RenderPipelineStateLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776CA91253EB5BF000A9683 /* RenderPipelineStateLibrary.swift */; };
+		8776CA98253F3131000A9683 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776CA97253F3131000A9683 /* GameObject.swift */; };
+		8776CA9D253F33AE000A9683 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776CA9C253F33AE000A9683 /* Renderer.swift */; };
+		8776CAA2253FF433000A9683 /* MeshLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776CAA1253FF433000A9683 /* MeshLibrary.swift */; };
+		8776CAA7253FFB91000A9683 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776CAA6253FFB91000A9683 /* Node.swift */; };
+		8776CAAD253FFC36000A9683 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776CAAC253FFC36000A9683 /* Renderable.swift */; };
 		877712EB250BA29E00B33D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712EA250BA29E00B33D97 /* AppDelegate.swift */; };
 		877712EF250BA2A500B33D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877712EE250BA2A500B33D97 /* Assets.xcassets */; };
 		877712F2250BA2A500B33D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877712F0250BA2A500B33D97 /* Main.storyboard */; };
 		877712FE250BA2A600B33D97 /* Melancholy_EngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877712FD250BA2A600B33D97 /* Melancholy_EngineTests.swift */; };
 		87771309250BA2A600B33D97 /* Melancholy_EngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */; };
+		87A3CB5525402C47006976B3 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3CB5425402C47006976B3 /* Math.swift */; };
+		87A3CB5B25403852006976B3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3CB5A25403852006976B3 /* Scene.swift */; };
+		87A3CB6425405639006976B3 /* SandBoxScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3CB6325405639006976B3 /* SandBoxScene.swift */; };
+		87A3CB70254058FD006976B3 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A3CB6F254058FD006976B3 /* SceneManager.swift */; };
 		87B7316F25305A0200561C5C /* ShaderLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7316E25305A0200561C5C /* ShaderLibrary.swift */; };
 		87CF645F251C8C6400F9F87A /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF645E251C8C6400F9F87A /* Types.swift */; };
 		87CF646E251C8FE700F9F87A /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF646D251C8FE700F9F87A /* Engine.swift */; };
@@ -38,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8776CA87253EB0DA000A9683 /* VertexDescriptorLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexDescriptorLibrary.swift; sourceTree = "<group>"; };
+		8776CA8C253EB36D000A9683 /* RenderPipelineDescriptorLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderPipelineDescriptorLibrary.swift; sourceTree = "<group>"; };
+		8776CA91253EB5BF000A9683 /* RenderPipelineStateLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderPipelineStateLibrary.swift; sourceTree = "<group>"; };
+		8776CA97253F3131000A9683 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		8776CA9C253F33AE000A9683 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		8776CAA1253FF433000A9683 /* MeshLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshLibrary.swift; sourceTree = "<group>"; };
+		8776CAA6253FFB91000A9683 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		8776CAAC253FFC36000A9683 /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
 		877712E7250BA29E00B33D97 /* Melancholy Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Melancholy Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		877712EA250BA29E00B33D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		877712EE250BA2A500B33D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +70,10 @@
 		87771304250BA2A600B33D97 /* Melancholy EngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Melancholy EngineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87771308250BA2A600B33D97 /* Melancholy_EngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melancholy_EngineUITests.swift; sourceTree = "<group>"; };
 		8777130A250BA2A600B33D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A3CB5425402C47006976B3 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		87A3CB5A25403852006976B3 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		87A3CB6325405639006976B3 /* SandBoxScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxScene.swift; sourceTree = "<group>"; };
+		87A3CB6F254058FD006976B3 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
 		87B7316E25305A0200561C5C /* ShaderLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderLibrary.swift; sourceTree = "<group>"; };
 		87CF645E251C8C6400F9F87A /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		87CF646D251C8FE700F9F87A /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
@@ -83,6 +107,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8776CA96253F3112000A9683 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				8776CAA6253FFB91000A9683 /* Node.swift */,
+				87A3CB5925403839006976B3 /* Scenes */,
+				8776CAAB253FFC1E000A9683 /* Protocols */,
+				8776CA97253F3131000A9683 /* GameObject.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		8776CAAB253FFC1E000A9683 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8776CAAC253FFC36000A9683 /* Renderable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		877712DE250BA29E00B33D97 = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +149,15 @@
 		877712E9250BA29E00B33D97 /* Melancholy Engine */ = {
 			isa = PBXGroup;
 			children = (
+				87A3CB5325402C2E006976B3 /* Maths */,
 				87CF6466251C8E7E00F9F87A /* Core */,
 				87CF6467251C8E8300F9F87A /* Libraries */,
 				87CF6468251C8E8F00F9F87A /* Shaders */,
+				87A3CB6E254058DF006976B3 /* Managers */,
+				8776CA96253F3112000A9683 /* Game */,
 				87CF6469251C8E9500F9F87A /* Display */,
 				87771317250BA2E400B33D97 /* Other Files */,
+				87A3CB6225405629006976B3 /* Sandbox */,
 			);
 			path = "Melancholy Engine";
 			sourceTree = "<group>";
@@ -144,12 +191,44 @@
 			path = "Other Files";
 			sourceTree = "<group>";
 		};
+		87A3CB5325402C2E006976B3 /* Maths */ = {
+			isa = PBXGroup;
+			children = (
+				87A3CB5425402C47006976B3 /* Math.swift */,
+			);
+			path = Maths;
+			sourceTree = "<group>";
+		};
+		87A3CB5925403839006976B3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				87A3CB5A25403852006976B3 /* Scene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		87A3CB6225405629006976B3 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				87A3CB6325405639006976B3 /* SandBoxScene.swift */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		87A3CB6E254058DF006976B3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				87A3CB6F254058FD006976B3 /* SceneManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		87CF6466251C8E7E00F9F87A /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				87CF645E251C8C6400F9F87A /* Types.swift */,
 				87CF646D251C8FE700F9F87A /* Engine.swift */,
 				87CF6472251CC7F700F9F87A /* Preferences.swift */,
+				87CF645E251C8C6400F9F87A /* Types.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -158,6 +237,10 @@
 			isa = PBXGroup;
 			children = (
 				87B7316E25305A0200561C5C /* ShaderLibrary.swift */,
+				8776CA87253EB0DA000A9683 /* VertexDescriptorLibrary.swift */,
+				8776CA8C253EB36D000A9683 /* RenderPipelineDescriptorLibrary.swift */,
+				8776CA91253EB5BF000A9683 /* RenderPipelineStateLibrary.swift */,
+				8776CAA1253FF433000A9683 /* MeshLibrary.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -173,6 +256,7 @@
 		87CF6469251C8E9500F9F87A /* Display */ = {
 			isa = PBXGroup;
 			children = (
+				8776CA9C253F33AE000A9683 /* Renderer.swift */,
 				87D5D194250CC8F800093402 /* GameView.swift */,
 				877712F0250BA2A500B33D97 /* Main.storyboard */,
 			);
@@ -309,13 +393,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8776CA98253F3131000A9683 /* GameObject.swift in Sources */,
 				87D5D195250CC8F800093402 /* GameView.swift in Sources */,
 				877712EB250BA29E00B33D97 /* AppDelegate.swift in Sources */,
+				8776CAAD253FFC36000A9683 /* Renderable.swift in Sources */,
+				87A3CB6425405639006976B3 /* SandBoxScene.swift in Sources */,
+				8776CA88253EB0DA000A9683 /* VertexDescriptorLibrary.swift in Sources */,
+				8776CA9D253F33AE000A9683 /* Renderer.swift in Sources */,
 				87CF6473251CC7F700F9F87A /* Preferences.swift in Sources */,
+				8776CA92253EB5BF000A9683 /* RenderPipelineStateLibrary.swift in Sources */,
 				87D5D197250CD0BF00093402 /* basicShaders.metal in Sources */,
 				87B7316F25305A0200561C5C /* ShaderLibrary.swift in Sources */,
+				87A3CB5B25403852006976B3 /* Scene.swift in Sources */,
 				87CF645F251C8C6400F9F87A /* Types.swift in Sources */,
+				8776CAA2253FF433000A9683 /* MeshLibrary.swift in Sources */,
+				87A3CB70254058FD006976B3 /* SceneManager.swift in Sources */,
+				8776CA8D253EB36D000A9683 /* RenderPipelineDescriptorLibrary.swift in Sources */,
 				87CF646E251C8FE700F9F87A /* Engine.swift in Sources */,
+				8776CAA7253FFB91000A9683 /* Node.swift in Sources */,
+				87A3CB5525402C47006976B3 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
