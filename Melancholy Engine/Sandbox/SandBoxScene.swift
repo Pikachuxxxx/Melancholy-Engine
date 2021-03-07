@@ -10,12 +10,10 @@ import MetalKit
 
 class SandBoxScene: Scene{
     
-//    let  gameObject: GameObject = GameObject(meshType: MeshTypes.Quad_Custom)
-
     override func buildScene() {
         for x in -5..<5 {
             for y in -5..<5 {
-                let gameObject: GameObject = GameObject(meshType: MeshTypes.Quad_Custom)
+                let gameObject: GameObject = GameObject(meshType: MeshTypes.Triangle_Custom)
                 gameObject.position.x = Float(Float(x) + 0.5) / 5
                 gameObject.position.y = Float(Float(y) + 0.5) / 5
                 gameObject.scale = simd_float3(repeating: 0.1)

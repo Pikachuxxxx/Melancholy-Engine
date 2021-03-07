@@ -149,15 +149,15 @@
 		877712E9250BA29E00B33D97 /* Melancholy Engine */ = {
 			isa = PBXGroup;
 			children = (
-				87A3CB5325402C2E006976B3 /* Maths */,
 				87CF6466251C8E7E00F9F87A /* Core */,
-				87CF6467251C8E8300F9F87A /* Libraries */,
-				87CF6468251C8E8F00F9F87A /* Shaders */,
-				87A3CB6E254058DF006976B3 /* Managers */,
-				8776CA96253F3112000A9683 /* Game */,
 				87CF6469251C8E9500F9F87A /* Display */,
-				87771317250BA2E400B33D97 /* Other Files */,
+				8776CA96253F3112000A9683 /* Game */,
+				87CF6467251C8E8300F9F87A /* Libraries */,
+				87A3CB6E254058DF006976B3 /* Managers */,
+				87A3CB5325402C2E006976B3 /* Maths */,
+				87CF6468251C8E8F00F9F87A /* Shaders */,
 				87A3CB6225405629006976B3 /* Sandbox */,
+				87771317250BA2E400B33D97 /* Other Files */,
 			);
 			path = "Melancholy Engine";
 			sourceTree = "<group>";
